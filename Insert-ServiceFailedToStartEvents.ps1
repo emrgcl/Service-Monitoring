@@ -4,10 +4,10 @@
 .DESCRIPTION
    Inserts selected scom events to custom database
 .EXAMPLE
-   .\Insert-ServiceFailedToStartEvents -SQLServer 'opwscomdb1' -Instance 'default,1977' -Database 'SCOMDashboard' -TableName 'ServiceFailedToStartEvents' -Verbose
+   .\Insert-ServiceFailedToStartEvents -SQLServer 'SCOMSQL' -Instance 'default,1433' -Database 'SCOMDashboard' -TableName 'ServiceFailedToStartEvents' -Verbose
     
     VERBOSE: [27.04.2020 16:24:51] Script Started.
-    WARNING: Using provider context. Server = opwscomdb1\default,1977, Database = [SCOMDashboard].
+    WARNING: Using provider context. Server = SCOMSQL\default,1433, Database = [SCOMDashboard].
     VERBOSE: [27.04.2020 16:25:21] Inserted 1691 number of CPU Samples in total
     VERBOSE: [27.04.2020 16:25:21] Script ended.Script dutation is 29.8307143
 #>
